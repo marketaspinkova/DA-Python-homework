@@ -1,15 +1,4 @@
 """
-otázky:
-1. jaký je úzus odražení? jak tady funguje to automatické odražení (vypadá jako šipka)?
-2. jak poznám, kdy se jak píše atribut? např. sort(seznam) a seznam.sorted()? a jaký je mezi sort a sorted rozdíl? (6)
-3. jak napsat novou fci pro práci se seznamem? ad např úkol 9 (jak se píše, že atributem je, že musíme mít seznam)
-5. seznamy (6) - jak to udělat, když chci přidat víc prvků, ale není to range? plus mi u 6 nefunguje automatizace
-
-
-"""
-
-
-"""
 #4 urok v bance______________________________________________________________________
 money = 1000000
 interest = 0.024
