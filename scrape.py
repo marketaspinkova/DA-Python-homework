@@ -61,7 +61,7 @@ for znacka in stranka.html.find('a'):
   odkazy.append(znacka.attrs["href"])
 
 soubor = open("chapters.csv", "w")
-[soubor.write(kapitoly[x-1] + "\t" + odkazy[x-1] + "\n") for x in range(len(kapitoly))]
+[soubor.write(kapitoly[x] + "\t" + odkazy[x] + "\n") for x in range(len(kapitoly))]
 soubor.close()
 
 
